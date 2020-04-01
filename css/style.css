@@ -2797,6 +2797,38 @@ body {
   }
 }
 
+
+
+.covid19-special{
+    background-color: #f1f1f1;
+}
+.covid19-special .description{}
+.covid19-special .description h2{
+    font-family: sans-serif;
+    font-weight: 700;
+    color:#ff6801;
+}
+.covid19-special .description p{
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.covid19-special .data-table ul{list-style: none;
+font-size: 16px;}
+.covid19-special .data-table ul li{
+    padding-left: 50px;
+    background-image: url(../images/checked.svg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
 @media screen and (max-width: 991px) {
 
   .benefits-section .section-title,
@@ -3128,6 +3160,16 @@ display: block;
     padding: 50px 0 40px;
   }
 }
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 767px) {
   .home-banner-section {
